@@ -1,11 +1,14 @@
 package main
 
 import (
-	_ "quickstart-beego/routers"
+	_ "beego-archetype/routers"
 	"github.com/astaxie/beego"
+
 )
 
 func main() {
+	beego.Debug("This is the entry of beego archetype!")
+	
 	beego.Run()
 }
 
